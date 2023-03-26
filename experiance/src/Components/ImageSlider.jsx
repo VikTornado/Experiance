@@ -47,11 +47,13 @@ const ImageSlider = () => {
 
             </div>
             <div
-                className={"absolute top-[50%] -translate-x-0 translate-y-[-50%] left-7 text-2xl rounded-full p-2 group-hover:bg-black/20 text-white cursor-pointer"}>
+                className={"absolute top-[50%] -translate-x-0 translate-y-[-50%] left-7 text-2xl rounded-full p-2 " +
+                    "group-hover:bg-black/20 text-white cursor-pointer"}>
                 <SlArrowLeft onClick={prevSlide} size={30}/>
             </div>
             <div
-                className={"absolute top-[50%] -translate-x-0 translate-y-[-50%] right-7 text-2xl rounded-full p-2 group-hover:bg-black/20 text-white cursor-pointer"}>
+                className={"absolute top-[50%] -translate-x-0 translate-y-[-50%] right-7 text-2xl rounded-full p-2 " +
+                    "group-hover:bg-black/20 text-white cursor-pointer"}>
                 <SlArrowRight onClick={nextSlide} size={30}/>
             </div>
             <div className={"flex top-4 justify-center py-2"}>
